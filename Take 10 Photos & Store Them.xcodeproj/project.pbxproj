@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0119C81F82C8B0005466E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0119C71F82C8B0005466E3 /* AppDelegate.swift */; };
+		3D0119CA1F82C8B0005466E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0119C91F82C8B0005466E3 /* ViewController.swift */; };
+		3D0119CD1F82C8B0005466E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0119CB1F82C8B0005466E3 /* Main.storyboard */; };
+		3D0119CF1F82C8B0005466E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0119CE1F82C8B0005466E3 /* Assets.xcassets */; };
+		3D0119D21F82C8B0005466E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0119D01F82C8B0005466E3 /* LaunchScreen.storyboard */; };
+		3D0119DD1F82C8B0005466E3 /* Take_10_Photos___Store_ThemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0119DC1F82C8B0005466E3 /* Take_10_Photos___Store_ThemTests.swift */; };
+		3D0119E81F82C8B0005466E3 /* Take_10_Photos___Store_ThemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0119E71F82C8B0005466E3 /* Take_10_Photos___Store_ThemUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0119D91F82C8B0005466E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D0119BC1F82C8AF005466E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0119C31F82C8B0005466E3;
+			remoteInfo = "Take 10 Photos & Store Them";
+		};
+		3D0119E41F82C8B0005466E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D0119BC1F82C8AF005466E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0119C31F82C8B0005466E3;
+			remoteInfo = "Take 10 Photos & Store Them";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D0119C41F82C8B0005466E3 /* Take 10 Photos & Store Them.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take 10 Photos & Store Them.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0119C71F82C8B0005466E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D0119C91F82C8B0005466E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D0119CC1F82C8B0005466E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D0119CE1F82C8B0005466E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D0119D11F82C8B0005466E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D0119D31F82C8B0005466E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0119D81F82C8B0005466E3 /* Take 10 Photos & Store ThemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take 10 Photos & Store ThemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0119DC1F82C8B0005466E3 /* Take_10_Photos___Store_ThemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Take_10_Photos___Store_ThemTests.swift"; sourceTree = "<group>"; };
+		3D0119DE1F82C8B0005466E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0119E31F82C8B0005466E3 /* Take 10 Photos & Store ThemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take 10 Photos & Store ThemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0119E71F82C8B0005466E3 /* Take_10_Photos___Store_ThemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Take_10_Photos___Store_ThemUITests.swift"; sourceTree = "<group>"; };
+		3D0119E91F82C8B0005466E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0119C11F82C8B0005466E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0119D51F82C8B0005466E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0119E01F82C8B0005466E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0119BB1F82C8AF005466E3 = {
+			isa = PBXGroup;
+			children = (
+				3D0119C61F82C8B0005466E3 /* Take 10 Photos & Store Them */,
+				3D0119DB1F82C8B0005466E3 /* Take 10 Photos & Store ThemTests */,
+				3D0119E61F82C8B0005466E3 /* Take 10 Photos & Store ThemUITests */,
+				3D0119C51F82C8B0005466E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0119C51F82C8B0005466E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0119C41F82C8B0005466E3 /* Take 10 Photos & Store Them.app */,
+				3D0119D81F82C8B0005466E3 /* Take 10 Photos & Store ThemTests.xctest */,
+				3D0119E31F82C8B0005466E3 /* Take 10 Photos & Store ThemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0119C61F82C8B0005466E3 /* Take 10 Photos & Store Them */ = {
+			isa = PBXGroup;
+			children = (
+				3D0119C71F82C8B0005466E3 /* AppDelegate.swift */,
+				3D0119C91F82C8B0005466E3 /* ViewController.swift */,
+				3D0119CB1F82C8B0005466E3 /* Main.storyboard */,
+				3D0119CE1F82C8B0005466E3 /* Assets.xcassets */,
+				3D0119D01F82C8B0005466E3 /* LaunchScreen.storyboard */,
+				3D0119D31F82C8B0005466E3 /* Info.plist */,
+			);
+			path = "Take 10 Photos & Store Them";
+			sourceTree = "<group>";
+		};
+		3D0119DB1F82C8B0005466E3 /* Take 10 Photos & Store ThemTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0119DC1F82C8B0005466E3 /* Take_10_Photos___Store_ThemTests.swift */,
+				3D0119DE1F82C8B0005466E3 /* Info.plist */,
+			);
+			path = "Take 10 Photos & Store ThemTests";
+			sourceTree = "<group>";
+		};
+		3D0119E61F82C8B0005466E3 /* Take 10 Photos & Store ThemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0119E71F82C8B0005466E3 /* Take_10_Photos___Store_ThemUITests.swift */,
+				3D0119E91F82C8B0005466E3 /* Info.plist */,
+			);
+			path = "Take 10 Photos & Store ThemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0119C31F82C8B0005466E3 /* Take 10 Photos & Store Them */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0119EC1F82C8B0005466E3 /* Build configuration list for PBXNativeTarget "Take 10 Photos & Store Them" */;
+			buildPhases = (
+				3D0119C01F82C8B0005466E3 /* Sources */,
+				3D0119C11F82C8B0005466E3 /* Frameworks */,
+				3D0119C21F82C8B0005466E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Take 10 Photos & Store Them";
+			productName = "Take 10 Photos & Store Them";
+			productReference = 3D0119C41F82C8B0005466E3 /* Take 10 Photos & Store Them.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D0119D71F82C8B0005466E3 /* Take 10 Photos & Store ThemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0119EF1F82C8B0005466E3 /* Build configuration list for PBXNativeTarget "Take 10 Photos & Store ThemTests" */;
+			buildPhases = (
+				3D0119D41F82C8B0005466E3 /* Sources */,
+				3D0119D51F82C8B0005466E3 /* Frameworks */,
+				3D0119D61F82C8B0005466E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0119DA1F82C8B0005466E3 /* PBXTargetDependency */,
+			);
+			name = "Take 10 Photos & Store ThemTests";
+			productName = "Take 10 Photos & Store ThemTests";
+			productReference = 3D0119D81F82C8B0005466E3 /* Take 10 Photos & Store ThemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D0119E21F82C8B0005466E3 /* Take 10 Photos & Store ThemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0119F21F82C8B0005466E3 /* Build configuration list for PBXNativeTarget "Take 10 Photos & Store ThemUITests" */;
+			buildPhases = (
+				3D0119DF1F82C8B0005466E3 /* Sources */,
+				3D0119E01F82C8B0005466E3 /* Frameworks */,
+				3D0119E11F82C8B0005466E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0119E51F82C8B0005466E3 /* PBXTargetDependency */,
+			);
+			name = "Take 10 Photos & Store ThemUITests";
+			productName = "Take 10 Photos & Store ThemUITests";
+			productReference = 3D0119E31F82C8B0005466E3 /* Take 10 Photos & Store ThemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D0119BC1F82C8AF005466E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "William Peregoy";
+				TargetAttributes = {
+					3D0119C31F82C8B0005466E3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3D0119D71F82C8B0005466E3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D0119C31F82C8B0005466E3;
+					};
+					3D0119E21F82C8B0005466E3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D0119C31F82C8B0005466E3;
+					};
+				};
+			};
+			buildConfigurationList = 3D0119BF1F82C8AF005466E3 /* Build configuration list for PBXProject "Take 10 Photos & Store Them" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D0119BB1F82C8AF005466E3;
+			productRefGroup = 3D0119C51F82C8B0005466E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0119C31F82C8B0005466E3 /* Take 10 Photos & Store Them */,
+				3D0119D71F82C8B0005466E3 /* Take 10 Photos & Store ThemTests */,
+				3D0119E21F82C8B0005466E3 /* Take 10 Photos & Store ThemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0119C21F82C8B0005466E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0119D21F82C8B0005466E3 /* LaunchScreen.storyboard in Resources */,
+				3D0119CF1F82C8B0005466E3 /* Assets.xcassets in Resources */,
+				3D0119CD1F82C8B0005466E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0119D61F82C8B0005466E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0119E11F82C8B0005466E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0119C01F82C8B0005466E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0119CA1F82C8B0005466E3 /* ViewController.swift in Sources */,
+				3D0119C81F82C8B0005466E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0119D41F82C8B0005466E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0119DD1F82C8B0005466E3 /* Take_10_Photos___Store_ThemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0119DF1F82C8B0005466E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0119E81F82C8B0005466E3 /* Take_10_Photos___Store_ThemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0119DA1F82C8B0005466E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0119C31F82C8B0005466E3 /* Take 10 Photos & Store Them */;
+			targetProxy = 3D0119D91F82C8B0005466E3 /* PBXContainerItemProxy */;
+		};
+		3D0119E51F82C8B0005466E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0119C31F82C8B0005466E3 /* Take 10 Photos & Store Them */;
+			targetProxy = 3D0119E41F82C8B0005466E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D0119CB1F82C8B0005466E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0119CC1F82C8B0005466E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D0119D01F82C8B0005466E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0119D11F82C8B0005466E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D0119EA1F82C8B0005466E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D0119EB1F82C8B0005466E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0119ED1F82C8B0005466E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KSG8638H7;
+				INFOPLIST_FILE = "Take 10 Photos & Store Them/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamperegoy.take10.Take-10-Photos---Store-Them";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D0119EE1F82C8B0005466E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KSG8638H7;
+				INFOPLIST_FILE = "Take 10 Photos & Store Them/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamperegoy.take10.Take-10-Photos---Store-Them";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D0119F01F82C8B0005466E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KSG8638H7;
+				INFOPLIST_FILE = "Take 10 Photos & Store ThemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamperegoy.take10.Take-10-Photos---Store-ThemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take 10 Photos & Store Them.app/Take 10 Photos & Store Them";
+			};
+			name = Debug;
+		};
+		3D0119F11F82C8B0005466E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KSG8638H7;
+				INFOPLIST_FILE = "Take 10 Photos & Store ThemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamperegoy.take10.Take-10-Photos---Store-ThemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take 10 Photos & Store Them.app/Take 10 Photos & Store Them";
+			};
+			name = Release;
+		};
+		3D0119F31F82C8B0005466E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KSG8638H7;
+				INFOPLIST_FILE = "Take 10 Photos & Store ThemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamperegoy.take10.Take-10-Photos---Store-ThemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Take 10 Photos & Store Them";
+			};
+			name = Debug;
+		};
+		3D0119F41F82C8B0005466E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KSG8638H7;
+				INFOPLIST_FILE = "Take 10 Photos & Store ThemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamperegoy.take10.Take-10-Photos---Store-ThemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Take 10 Photos & Store Them";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D0119BF1F82C8AF005466E3 /* Build configuration list for PBXProject "Take 10 Photos & Store Them" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0119EA1F82C8B0005466E3 /* Debug */,
+				3D0119EB1F82C8B0005466E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0119EC1F82C8B0005466E3 /* Build configuration list for PBXNativeTarget "Take 10 Photos & Store Them" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0119ED1F82C8B0005466E3 /* Debug */,
+				3D0119EE1F82C8B0005466E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0119EF1F82C8B0005466E3 /* Build configuration list for PBXNativeTarget "Take 10 Photos & Store ThemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0119F01F82C8B0005466E3 /* Debug */,
+				3D0119F11F82C8B0005466E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0119F21F82C8B0005466E3 /* Build configuration list for PBXNativeTarget "Take 10 Photos & Store ThemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0119F31F82C8B0005466E3 /* Debug */,
+				3D0119F41F82C8B0005466E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D0119BC1F82C8AF005466E3 /* Project object */;
+}
